@@ -1,0 +1,15 @@
+#header-content {
+  background-color: coral;
+}
+#header-byline {
+  background-color: black;
+  font-size: 0.8rem;
+  color: white;
+  padding: 1%;
+  position: absolute;
+  top: 88%;
+  left: 73%;
+}
+#header-byline:hover {
+  text-decoration: none;
+}
