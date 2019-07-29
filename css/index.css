@@ -1,5 +1,5 @@
 #header-content {
-  background-color: coral;
+  padding: 5%;
 }
 #header-byline {
   background-color: black;
@@ -12,4 +12,27 @@
 }
 #header-byline:hover {
   text-decoration: none;
+}
+header {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+}
+body {
+  background-color: #3c3d40;
+  color: #9a9fad;
+}
+#about-devs {
+  padding: 5%;
+}
+nav {
+  position: fixed;
+}
+.jumbotron {
+  height: 100vh;
+  background-image: url("header.jpg");
+  background-size: cover;
+  resize: both;
+}
+header .jumbotron {
+  margin: auto;
 }
