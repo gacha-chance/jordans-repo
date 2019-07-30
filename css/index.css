@@ -1,38 +1,44 @@
-#header-content {
-  padding: 5%;
-}
-#header-byline {
-  background-color: black;
-  font-size: 0.8rem;
-  color: white;
-  padding: 1%;
-  position: absolute;
-  top: 88%;
-  left: 73%;
-}
-#header-byline:hover {
-  text-decoration: none;
-}
 header {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
   color: black;
+  border-radius: 10px;
 }
 body {
-  background-color: #3c3d40;
+  background-color: black;
   color: #9a9fad;
+  font-family: 'Barlow', sans-serif;
 }
-#about-devs {
-  padding: 5%;
+h1,
+h2 {
+  font-family: 'Comfortaa', cursive;
+}
+#logo {
+  font-family: 'Francois One', sans-serif;
 }
 nav {
   position: fixed;
+  background-color: black;
+  width: 100%;
+  padding: 0.5% 0%;
+}
+nav a {
+  color: #9a9fad;
+  font-size: 1.2rem;
+}
+nav a:hover {
+  color: white;
+  text-decoration: none;
 }
 .jumbotron {
   height: 100vh;
   background-image: url("header.jpg");
   background-size: cover;
-  resize: both;
+  resize: horizontal;
 }
-header .jumbotron {
+#about-devs {
+  padding: 5%;
   margin: auto;
+}
+#about-devs h2 {
+  text-align: center;
 }

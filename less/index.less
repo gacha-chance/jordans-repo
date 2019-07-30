@@ -1,22 +1,40 @@
 @import 'header.less';
 @import 'global.less';
 
-#about-devs {
-    padding:5%;
+h1,h2 {
+    font-family:'Comfortaa', cursive;
 }
 
+#logo {
+    font-family: 'Francois One', sans-serif;
+}
 nav {
     position:fixed;
-
+    background-color:black;
+    width:100%;
+    a {
+        color: #9a9fad;
+        &:hover {
+            color:white;
+            text-decoration: none;
+        }
+        font-size: 1.2rem;
+    }
+    padding: 0.5% 0%;
 }
 
 .jumbotron {
     height:100vh;
     background-image:url("header.jpg");
     background-size:cover;
-    resize: both;
+    resize:horizontal;
 }
 
-header .jumbotron {
+#about-devs {
+    padding:5%;
     margin:auto;
+    h2 {
+        text-align:center;
+    }
 }
+

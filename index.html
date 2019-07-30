@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gacha Chance</title>
+    <link href="https://fonts.googleapis.com/css?family=Barlow|Comfortaa|Francois+One&display=swap" rel="stylesheet"> 
     <link href="css/bootstrap.min.css" rel="stylesheet"></link>
     <link href="css/index.css" rel="stylesheet"></link>
+    <title>Gacha Chance</title>
 </head>
 
 <body>
-    <nav>
-        <a href="#home">Gacha Chance</a>
-        <a href="#">Calculate Your Luck!</a>
-        <a href="#about-main" class="col">Intro</a>
-        <a href="#about-devs" class="col">Meet the Team</a>
+    <nav class="row justify-content-center">
+        <a href="#home"  id="logo" class="col-1">Gacha Chance</a>
+        <a href="#" class="col-1">Get Started</a>
+        <a href="#about-main" class="col-1">About Gacha</a>
+        <a href="#about-devs" class="col-1">Meet the Team</a>
     </nav>
-    <div class="container-full">
-        <div id="home" class="jumbotron row">
-            <header class="container my-auto">
+    <div class="container-full-bg">
+        <div id="home" class="jumbotron row no-gutters">
+            <header class="container my-auto p-5">
                 <h1 class="display-4">Gacha Chance</h1>
-                <p class="lead">No more guessing, calculate your luck!</p>
+                <p class="lead">Calculate your luck!</p>
                 <hr class="my-4">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloremque ullam eos, recusandae ad modi exercitationem ducimus non voluptates repellat minus tempora autem nobis facilis odit, distinctio itaque ab nesciunt.</p>
                 <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Get Started</a>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Start Gacha Chance</a>
                 </p>
             </header>
         </div>
@@ -38,7 +39,7 @@
                         </p>
                     </div>
                     <div class="col-lg-4">
-                        <img class="img-fluid" src="img/header.jpg" />
+                        <img class="img-fluid" src="css/header.jpg" />
                     </div>
                 </div>
                 <div class="row">
@@ -47,13 +48,13 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eius accusamus voluptate soluta? Sunt soluta explicabo aspernatur deleniti beatae ratione consequuntur tenetur temporibus quo quae nobis, nisi aperiam expedita! Reprehenderit?</p>
                     </div>
                     <div class="col-lg-4 order-first">
-                        <img class="img-fluid" src="img/header.jpg" />
+                        <img class="img-fluid" src="css/header.jpg" />
                     </div>
                 </div>
             </section>
-            <section id="about-devs">
+            <section id="about-devs" class="col-6">
                 <h2>Meet the Development Team!</h2>
-                <div class="row justify-content-center">
+                <div id="team" class="row justify-content-center">
                     <div class="card col-lg-3 m-4">
                         <img class="card-img-top" src="img/team/jordan.png" />
                         <h2>David</h2>
