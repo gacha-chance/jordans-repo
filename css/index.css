@@ -19,6 +19,11 @@ h2 {
 .logo-name.navbar-brand {
   font-size: 1.9rem;
 }
+@media only screen and (max-width: 800px) {
+  .logo-name.navbar-brand {
+    margin: auto;
+  }
+}
 nav {
   position: fixed;
   background-color: black;
@@ -78,19 +83,18 @@ nav {
   background-size: cover;
   resize: horizontal;
 }
-#about-devs {
-  padding: 5%;
-  margin: auto;
+.jumbotron hr {
+  border-color: black;
 }
-#about-devs h2 {
-  text-align: center;
-}
-.card {
-  padding-top: 20px;
-  color: black;
-}
-.card h2 {
-  margin-top: 10%;
+@media only screen and (max-width: 500px) {
+  .jumbotron {
+    margin-top: 150px;
+    padding: 0;
+    text-align: center;
+  }
+  .jumbotron header {
+    margin: 0 10px;
+  }
 }
 footer {
   text-align: center;
@@ -102,9 +106,31 @@ footer {
     font-size: 1rem;
   }
 }
+#second-row {
+  margin-top: 2%;
+}
+@media only screen and (max-width: 500px) {
+  #second-row {
+    margin-top: 20%;
+  }
+}
+#about-devs {
+  padding: 5%;
+  margin: auto;
+}
+#about-devs h2 {
+  text-align: center;
+}
 @media only screen and (max-width: 500px) {
   #about-devs {
     margin-top: 70%;
     text-align: center;
   }
+}
+.card {
+  padding-top: 20px;
+  color: black;
+}
+.card h2 {
+  margin-top: 10%;
 }
