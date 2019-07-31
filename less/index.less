@@ -17,11 +17,16 @@ h1,h2 {
 .logo-name {
     font-family: 'Francois One', sans-serif;
 }
-
+@media only screen and (max-width:767px) {
+    .navbar-toggler {
+        font-size:1.0rem;
+    }
+}
 .logo-name.navbar-brand {
     font-size:1.9rem;
-    @media only screen and (max-width:800px) {
+    @media only screen and (max-width:767px) {
         margin:auto;
+        font-size:1.4rem;
     }
 }
 
@@ -30,10 +35,8 @@ nav {
     background-color:black;
     width:100%;
 }
-.navbar-nav {
-    margin:auto;
-}
-.navbar .navbar-nav .nav-item.nav-link {
+
+#navbarNav .navbar-nav .nav-item .nav-link {
     color:#6e6e6e;
     position:relative;
     text-transform:uppercase;
@@ -88,7 +91,7 @@ nav {
         border-color:black;
     }
     @media only screen and (max-width:500px) {
-        margin-top:150px;
+        margin-top:5%;
         padding:0;
         text-align: center;
         header {
@@ -119,8 +122,8 @@ footer {
     h2 {
         text-align:center;
     }
-    @media only screen and (max-width:500px) {
-        margin-top:70%;
+    @media only screen and (max-width:767px) {
+        margin-top:15%;
         text-align:center;
     }
 }
