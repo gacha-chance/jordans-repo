@@ -1,2 +1,1 @@
-# jordans-repo
-UI 1 
+# User Interface 1 - Jordan's Repository
