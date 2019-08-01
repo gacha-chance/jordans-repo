@@ -3,12 +3,6 @@ body {
   color: white;
   font-family: 'Barlow', sans-serif;
 }
-header {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: black;
-  border-radius: 10px;
-  box-shadow: 0px 0px 50px 40px #c7c7c7;
-}
 h1,
 h2 {
   font-family: 'Comfortaa', cursive;
@@ -16,29 +10,36 @@ h2 {
 .logo-name {
   font-family: 'Francois One', sans-serif;
 }
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px 40px #c7c7c7;
+}
+@media only screen and (max-width: 767px) {
+  .navbar-toggler {
+    font-size: 1rem;
+  }
+}
 .logo-name.navbar-brand {
   font-size: 1.9rem;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 767px) {
   .logo-name.navbar-brand {
     margin: auto;
+    font-size: 1.4rem;
   }
 }
 nav {
-  position: fixed;
   background-color: black;
-  width: 100%;
 }
-.navbar-nav {
-  margin: auto;
-}
-.navbar .navbar-nav .nav-item.nav-link {
+#navbarNav .navbar-nav .nav-item .nav-link {
   color: #6e6e6e;
   position: relative;
   text-transform: uppercase;
   margin: auto;
 }
-.navbar .navbar-nav .nav-item.nav-link:before {
+#navbarNav .navbar-nav .nav-item .nav-link:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -52,18 +53,18 @@ nav {
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
-.navbar .navbar-nav .nav-item.nav-link:hover {
+#navbarNav .navbar-nav .nav-item .nav-link:hover {
   color: white;
 }
-.navbar .navbar-nav .nav-item.nav-link:hover:before {
+#navbarNav .navbar-nav .nav-item .nav-link:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-.navbar .navbar-nav .nav-item.nav-link.active {
+#navbarNav .navbar-nav .nav-item .nav-link.active {
   color: white;
 }
-.navbar .navbar-nav .nav-item.nav-link.active:before {
+#navbarNav .navbar-nav .nav-item .nav-link.active:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -88,7 +89,7 @@ nav {
 }
 @media only screen and (max-width: 500px) {
   .jumbotron {
-    margin-top: 150px;
+    margin-top: 5%;
     padding: 0;
     text-align: center;
   }
@@ -121,9 +122,9 @@ footer {
 #about-devs h2 {
   text-align: center;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 767px) {
   #about-devs {
-    margin-top: 70%;
+    margin-top: 15%;
     text-align: center;
   }
 }
